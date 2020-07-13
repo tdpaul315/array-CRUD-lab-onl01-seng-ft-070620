@@ -6,6 +6,8 @@ def create_an_array
   ["hubby", "randi", "rj", "marliee"]
 end
 
+create_an_array
+
 def add_element_to_end_of_array(array, element)
   add_element_to_end_of_array ([create_an_array << "1"]) 
 end
